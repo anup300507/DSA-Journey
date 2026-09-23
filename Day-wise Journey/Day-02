@@ -1,1 +1,7 @@
-system.out.println("anup")
+import java.util.*;
+public class JAVABasics{
+    public static void main(String[] args){
+         Scanner sc = new Scanner(System.in);
+        String anurag=sc.nextLine()
+        system.out.println(anurag)
+    }}
