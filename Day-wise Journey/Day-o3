@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class JAVABasics3 {
+    public static void main(String[] args) {
+        Scanner ak= new Scanner(System.in);
+        int a=ak.nextInt();  
+        float b=ak.nextFloat();
+        double c=ak.nextDouble();
+        double d=a+b+c;
+        System.out.print(d);//type conversion or type pormotion
+        int e=ak.nextInt();
+        float f=e;
+        System.out.print(f);//type conversion
+        float g=ak.nextFloat();
+        int h=(int)g;
+        System.out.print(h);//type casting
+        System.out.print((a>b)&&(b>c));//operators
+        System.out.print((a>b)||(b>c));
+        System.out.print(!(a>b));
+        System.out.print(a++);
+        System.out.print(--a);
+        System.out.print(a*5);
+    }
+    
+}
