@@ -1,0 +1,39 @@
+import java.util.*;
+public class JAVABasics4 {
+
+    public static void main(String[] args) {
+        Scanner as =new Scanner(System.in);
+        int age = as.nextInt();
+        if (age>=18){
+            System.out.println("valid age");
+        }
+        else{
+            System.out.println("invalid age");
+        }//conditional statement if else
+            int a= as.nextInt();
+            int b=as.nextInt();
+            if(a>=b){
+                System.out.println("a is greater than equal to b");
+            }
+            else{
+                System.out.println("b is greater than a");
+            }// if else conditional statement
+            int c= as.nextInt();
+            if(c%2==0){
+                System.out.println("c is even number");
+            }
+            else {
+                System.out.println("c is odd number");
+            }//even odd
+           //3 digit problem
+            if (a>=b && a>=c){
+                System.out.println("a is greater than b and c");
+            }
+            else if (b>=c){
+                System.err.println("b is greater than a and c");
+            }
+            else{
+                System.out.println("c is greater than a and b");
+            }
+    }
+}
